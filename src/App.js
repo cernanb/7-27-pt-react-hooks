@@ -1,5 +1,8 @@
 import CounterClass from "./components/CounterClass";
+import CounterFunctionalComponent from "./components/CounterFunctionalComponent";
 import FormClass from "./components/FormClass";
+import FormFunctional from "./components/FormFunctional";
+import GithubUseEffect from "./components/GithubUseEffect";
 
 function App() {
   return (
@@ -12,7 +15,10 @@ function App() {
       }}
     >
       {/* <CounterClass /> */}
-      <FormClass />
+      {/* <CounterFunctionalComponent /> */}
+      {/* <FormClass /> */}
+      {/* <FormFunctional /> */}
+      <GithubUseEffect />
     </div>
   );
 }

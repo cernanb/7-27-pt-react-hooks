@@ -4,7 +4,9 @@ export default class CounterClass extends Component {
   state = {
     counter: 0,
   };
+
   increment = () => {
+    console.log(this);
     this.setState({ counter: this.state.counter + 1 });
   };
   render() {
